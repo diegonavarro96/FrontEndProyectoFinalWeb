@@ -184,7 +184,7 @@ input.addEventListener('keypress', function (event) {
 
 $('#logout').on('click', function(){
   json_to_send = {
-    "": ''
+
   };
 
   json_to_send = JSON.stringify(json_to_send)
@@ -199,14 +199,12 @@ $('#logout').on('click', function(){
     dataType: 'json',
     data: json_to_send,
     success: function(data){
-
-      alert("Usuarios signed out");
-      console.log('success: '+ data);
-      window.location = './index.html'
-
     },
     error: function(error_msg) {
       alert((error_msg["responseText"]))
     }
   })
+ // alert("Usuarios signed out");
+     // console.log('success: '+ data);
+     setTimeout(function(){ window.location = './index.html'; }, 300);
 })
