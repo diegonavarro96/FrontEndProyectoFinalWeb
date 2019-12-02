@@ -1,0 +1,144 @@
+body {
+  font-family: 'Roboto', sans-serif;
+background-color:rgb(71, 63, 49);
+background-image: linear-gradient(30deg, rgb(101, 145, 60) 12%, transparent 12.5%, transparent 87%,  rgb(101, 145, 60) 87.5%,  rgb(101, 145, 60)),
+linear-gradient(150deg,  rgb(101, 145, 60) 12%, transparent 12.5%, transparent 87%,  rgb(101, 145, 60) 87.5%,  rgb(101, 145, 60)),
+linear-gradient(30deg, rgb(101, 145, 60) 12%, transparent 12.5%, transparent 87%,  rgb(101, 145, 60) 87.5%, rgb(101, 145, 60)),
+linear-gradient(150deg,  rgb(101, 145, 60) 12%, transparent 12.5%, transparent 87%,  rgb(101, 145, 60) 87.5%,  rgb(101, 145, 60)),
+linear-gradient(60deg, rgb(61, 51, 35) 25%, transparent 25.5%, transparent 75%, rgb(61, 51, 35) 75%, rgb(61, 51, 35)),
+linear-gradient(60deg, rgb(61, 51, 35) 25%, transparent 25.5%, transparent 75%, rgb(61, 51, 35) 75%, rgb(61, 51, 35));
+background-size:80px 140px;
+background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+  color: #333333;
+}
+
+/* NAVBAR */
+
+ul.navbar {
+  list-style-type: none;
+  margin: 0px 0px 10px 0px;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(232,230,230,0.18);
+}
+
+li.navbar-elem {
+  float: right;
+}
+
+li > a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #FFF;
+  opacity: 0.2;
+  color: black;
+}
+
+/* *** */
+table{
+  border: 1px solid black;
+}
+table {
+  width: 100%;
+}
+
+th {
+  font-size: larger;
+  height: 50px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+td {
+  font-size: large;
+  height: 50px;
+  vertical-align: bottom;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color: #f5f5f5;}
+.container {
+  margin: auto;
+  padding: 10px;
+  width: 90%;
+  background-color: #FEFEFE;
+  border-radius: 3px;
+  opacity: 0.9;
+  box-shadow: 3px 3px 10px 0px rgba(161,161,161,0.7);
+}
+
+h1 {
+  text-align: center;
+}
+
+.list {
+  padding: 10px 15px 30px 15px;
+}
+
+li {
+  list-style: none;
+  padding: 3px 0px;
+}
+
+li > span {
+  padding-left: 10px;
+}
+
+input[type="text"] {
+  margin: auto;
+  padding: 10px;
+  width: 300px;
+  display: block;
+  font-size: 13px;
+  border: 0px;
+  border-bottom: 1px solid #4F545F;
+  outline: none;
+}
+
+input[type="text"]:focus {
+  border-bottom: 2px solid #22B4E2;
+}
+
+.done {
+  text-decoration: line-through;
+  color: #8f919c; 
+}
+
+button {
+background-color: #f44336; /* Green */
+border: none;
+color: white;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 10px;
+margin: 4px 2px;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+cursor: pointer;
+margin-left: 0%;
+}
+
+button:hover {
+  background-color: white; 
+color: black; 
+border: 2px solid #f44336;
+} 
+
+input[type="text"].show
+{
+  display: none;
+}
+
+input[type="number"].show
+{
+  display: none;
+}
