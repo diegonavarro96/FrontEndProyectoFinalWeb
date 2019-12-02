@@ -102,6 +102,16 @@ input[type="text"] {
   outline: none;
 }
 
+input[type="number"] {
+  margin: auto;
+  padding: 10px;
+  width: 300px;
+  display: block;
+  font-size: 13px;
+  border: 0px;
+  border-bottom: 1px solid #4F545F;
+  outline: none;
+}
 input[type="text"]:focus {
   border-bottom: 2px solid #22B4E2;
 }
